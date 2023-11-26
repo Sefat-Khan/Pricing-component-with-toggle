@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="dist/output.css">
+</head>
+<body class="scroll-smooth box-border font-sans min-h-screen bg-blue-100 flex flex-col justify-center items-center mx-4 md:mx-0">
+    
+    <div class="w-full px-2 py-4 flex flex-col justify-between items-center space-y-16 md:px-0">
+        <img src="images/bg-top.svg" alt="top" class="absolute -z-10 top-0 right-0">
+
+    <!--- price selection section starts --->
+
+        <div class="w-full flex-col justify-between items-center text-center space-y-9">
+            <h1 class="text-2xl font-semibold text-gray-500">
+                Our Pricing
+            </h1>
+            <div class="flex justify-around items-center space-x-3 md:justify-center md:space-x-2">
+                <p class="text-base font-medium text-gray-500">
+                    Annually
+                </p>
+                <div class="mt-2">
+                    <input type="checkbox" id="toggle" name="toggle" unchecked class="hidden" >
+                    <label for="toggle" class="relative w-14 h-7 px-[0.1rem] py-[0.15rem] rounded-full bg-gray-500 inline-block cursor-pointer">
+                        <div class="w-6 h-6 rounded-full bg-white absolute transition-transform"></div>
+                    </label>
+                    
+                </div>
+                <p class="text-base font-medium text-gray-500">
+                   Monthly
+                </p>
+            </div>
+        </div>
+
+        <!--- price selection section ends --->
+
+        <!--- card selection section starts --->
+
+        <div class="w-full flex flex-col justify-between items-center space-y-6 md:flex-row md:space-y-0 md:space-x-0 xl:justify-center">
+            <div class="px-5 py-9 rounded-md flex flex-col justify-around items-center text-center space-y-5 bg-white md:w-[18.70rem] xl:w-80">
+                <div class="flex flex-col justify-between items-center space-y-3 divide-y-2">
+
+                    <!--- price pack starts --->
+
+                    <div class="flex flex-col space-y-3">
+                        <h2 class="text-lg font-semibold text-gray-500">
+                            Basic
+                        </h2>
+                        <span class="block text-7xl font-bold text-gray-600 md:text-5xl">
+                            $ 199.99
+                        </span>
+                        <span class="hidden">
+                            19.99 $
+                        </span>
+                    </div>
+
+                    <!--- price pack ends --->
+
+                    <!--- pack info starts --->
+
+                    <div class="w-full flex flex-col justify-around items-center space-y-5 divide-y-2">
+                        <p class="mt-4 text-lg font-semibold text-gray-500">
+                           500 GB Storage
+                        </p>
+                        <p class="w-full pt-3 text-lg font-semibold text-gray-500">
+                           2 Users Allowed
+                        </p>
+                        <p class="w-full pt-3 text-lg font-semibold text-gray-500">
+                           Send up to 3 GB
+                        </p>
+                    </div>
+
+                    <!--- pack info ends --->
+
+                </div>
+                <button class="px-32 py-2 rounded-lg bg-gradient-to-l from-violet-600 to-violet-200 text-white hover:bg-white hover:text-violet-800 hover:outline hover:outline-1 hover:outline-violet-600 font-bold uppercase text-base md:px-20">
+                     Learn More
+                </button>
+            </div>
+            <div class="px-5 py-9 rounded-md flex flex-col justify-around items-center text-center space-y-5 bg-gradient-to-t from-violet-500 to-violet-300 md:w-[18.70rem] md:scale-110 lg:scale-100">
+                <div class="flex flex-col justify-between items-center space-y-3 divide-y-2">
+
+                    <!--- professional price pack starts --->
+
+                    <div class="flex flex-col space-y-3">
+                        <h2 class="text-lg font-semibold text-white">
+                            Professional
+                        </h2>
+                        <span class="block text-7xl font-bold text-white md:text-6xl">
+                            $ 249.99
+                        </span>
+                        <span class="hidden">
+                            49.99 $
+                        </span>
+                    </div>
+
+                    <!--- professional price pack ends --->
+
+                    <!--- professional pack info starts --->
+
+                    <div class="w-full flex flex-col justify-around items-center space-y-5 divide-y-2">
+                        <p class="mt-4 text-lg font-semibold text-white">
+                           1 TB Storage
+                        </p>
+                        <p class="w-full pt-3 text-lg font-semibold text-white">
+                           5 Users Allowed
+                        </p>
+                        <p class="w-full pt-3 text-lg font-semibold text-white">
+                           Send up to 10 GB
+                        </p>
+                    </div>
+
+                    <!--- professional pack info ends --->
+
+                </div>
+                <button class="px-32 py-2 rounded-lg bg-white text-black hover:bg-violet-600 hover:text-white hover:outline hover:outline-1 hover:outline-white font-bold uppercase text-base md:px-20">
+                     Learn More
+                </button>
+            </div>
+            <div class="px-5 py-9 rounded-md flex flex-col justify-around items-center text-center space-y-5 bg-white md:w-[18.70rem] xl:w-80">
+                <div class="flex flex-col justify-between items-center space-y-3 divide-y-2">
+
+                    <!--- price pack starts --->
+
+                    <div class="flex flex-col space-y-3">
+                        <h2 class="text-lg font-semibold text-gray-500">
+                            Master
+                        </h2>
+                        <span class="block text-7xl font-bold text-gray-600 md:text-5xl">
+                            $ 399.99
+                        </span>
+                        <span class="hidden">
+                            99.99 $
+                        </span>
+                    </div>
+
+                    <!--- price pack ends --->
+
+                    <!--- pack info starts --->
+
+                    <div class="w-full flex flex-col justify-around items-center space-y-5 divide-y-2">
+                        <p class="mt-4 text-lg font-semibold text-gray-500">
+                           2 TB Storage
+                        </p>
+                        <p class="w-full pt-3 text-lg font-semibold text-gray-500">
+                           10 Users Allowed
+                        </p>
+                        <p class="w-full pt-3 text-lg font-semibold text-gray-500">
+                           Send up to 20 GB
+                        </p>
+                    </div>
+
+                    <!--- pack info ends --->
+
+                </div>
+                <button class="px-32 py-2 rounded-lg bg-gradient-to-l from-violet-600 to-violet-200 text-white hover:bg-white hover:text-violet-700 hover:outline-1 hover:outline hover:outline-violet-600 font-bold uppercase text-base md:px-20">
+                     Learn More
+                </button>
+            </div>
+        </div>
+
+        <!--- card selection section ends --->
+
+        <img src="images/bg-bottom.svg" alt="bottom" class="absolute -z-10 bottom-0 left-0">
+    </div>
+    
+</body>
+</html>
